@@ -1,0 +1,105 @@
+package rtu.mirea;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class Main {
+
+    /////Task6/////
+    /*static void randomArray(int a, int max) {
+
+        int[] array = new int[a];
+        int min = 1, range = max - min + 1;
+
+        for (int i = 0; i < a; i++) {
+            array[i] = (int) (Math.random() * range) + min;
+        }
+
+        System.out.println();
+        for (int i : array) {
+            System.out.print(i + " ");
+        }
+
+        Arrays.sort(array);
+        System.out.print("\n");
+
+        for (int i : array) {
+            System.out.print(i + " ");
+        }
+    }
+    static void randomArraySorted(int a, int max) {
+
+        Random random = new Random();
+        int[] array = new int[a];
+
+        for (int i = 0; i < a; i++)
+            array[i] = random.nextInt(max);
+
+        System.out.println();
+        for (int i : array)
+            System.out.print(i + " ");
+
+        Arrays.sort(array);
+        System.out.print("\n");
+
+        for (int i : array)
+            System.out.print(i + " ");
+    }*/
+
+    /////Task7/////
+    /*static void factorial(int a) {
+
+        int result = a > 0 ? 1 : 0;
+
+        for (int i = 1; i <= a; i++)
+            result *= i;
+
+        System.out.println();
+        if (a >= 0) System.out.println(result);
+        else System.out.println(-1);
+    }*/
+    public static void main(String[] args) {
+
+        /////Task3/////
+        /*int[] array = {10, 20, 30, 40, 50};
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum +=array[i];
+        }
+        System.out.println("For: " + sum);
+        sum = 0;
+
+        int j = 0;
+        while (j < array.length) {
+            sum += array[j];
+            j++;
+        }
+        System.out.println("While: " + sum);
+        sum = 0;
+
+        int k = 0;
+        do {
+            sum +=array[k];
+            k++;
+        } while (k < array.length);
+        System.out.println("Do...while: " + sum);*/
+
+        /////Task4/////
+	    /*int[] array = new int[] {10, 20, 30, 40, 50};
+	    for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }*/
+
+        /////Task5/////
+        /*for(int i = 0; i < 10;i++) {
+            System.out.println(String.format("%.2f", (double) 1 / i));
+        }*/
+
+        /////Task6/////
+        /*randomArray(10, 10);
+        randomArraySorted(10, 10);*/
+
+        /////Task7/////
+        //factorial(5);
+    }
+}
