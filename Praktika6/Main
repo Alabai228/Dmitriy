@@ -1,1 +1,16 @@
+package rtu.mirea.Praktika6;
 
+import rtu.mirea.Praktika5.Point;
+
+public class Main {
+    public static void main(String[] args) {
+        RectangleMovable rectangleMovable = new RectangleMovable(new Point(0, 0), new Point(10, 5));
+        System.out.println(rectangleMovable);
+        rectangleMovable.move(5, 5);
+        System.out.println(rectangleMovable);
+
+        System.out.println(rectangleMovable.isEqualSpeed());
+        rectangleMovable.setRightBottom(new Point(13, 13)); // Нарушаем скорость одной из точек
+        System.out.println(rectangleMovable.isEqualSpeed());
+    }
+}
